@@ -1,4 +1,4 @@
-//programa que suma los números pares entre el 1 y el 20
+//programa que suma los números pares entre el 1 y el 20, incluyendo el 20
 //Autor: Fabiola Canete
 //18 octubre 2017
 #include <iostream>
@@ -9,8 +9,8 @@ int main()
 {
     int sum=0, count =1;
 
-    while (count < 21) {
-        if ((count%2)<1){
+    while (count < 21) { //podemos escribir también (count<=20)
+        if ((count%2)<1){ //podemos escribir también (count%2)==0
             sum=sum+count;
         }
         count++;
